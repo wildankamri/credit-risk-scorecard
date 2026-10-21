@@ -1,0 +1,44 @@
+{
+    "project_name": "Credit Risk Prediction",
+    "version": "2.0.0",
+    "methodology": "CRISP-DM",
+    "random_state": 42,
+    "target_column": "loan_status",
+    "good_statuses": [
+        "Fully Paid",
+        "Does not meet the credit policy. Status:Fully Paid"
+    ],
+    "bad_statuses": [
+        "Charged Off",
+        "Default",
+        "Does not meet the credit policy. Status:Charged Off"
+    ],
+    "unresolved_statuses": [
+        "Current",
+        "In Grace Period",
+        "Late (16-30 days)",
+        "Late (31-120 days)"
+    ],
+    "prediction_point": "Before the final credit decision and before the loan terms (grade, interest rate, installment) are assigned",
+    "train_cutoff": 0.7,
+    "validation_cutoff": 0.85,
+    "target_recall": 0.65,
+    "use_lender_assigned_features": false,
+    "lender_assigned_features": [
+        "grade",
+        "sub_grade",
+        "int_rate",
+        "installment"
+    ],
+    "cost_missed_default": 5.0,
+    "cost_false_alarm": 1.0,
+    "primary_metric": "average_precision",
+    "secondary_metric": "roc_auc",
+    "environment": {
+        "run_timestamp": "2026-10-14 13:20:24",
+        "python": "3.12.10",
+        "pandas": "3.0.6",
+        "numpy": "2.5.4",
+        "scikit_learn": "1.9.1"
+    }
+}

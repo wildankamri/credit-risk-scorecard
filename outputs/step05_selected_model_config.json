@@ -1,0 +1,13 @@
+{
+    "project_version": "2.0",
+    "selected_model": "Random Forest",
+    "selected_threshold": 0.494793372234436,
+    "minimum_recall_constraint": 0.65,
+    "selection_metric_priority": [
+        "average_precision",
+        "roc_auc"
+    ],
+    "evaluation_dataset": "validation",
+    "test_set_used_for_selection": false,
+    "random_state": 42
+}

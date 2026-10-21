@@ -1,0 +1,30 @@
+{
+    "project_name": "Credit Risk Prediction",
+    "project_version": "2.0",
+    "methodology": "CRISP-DM",
+    "project_directory": "d:\\Portofolio\\Credit Risk Analyst",
+    "data_directory": "d:\\Portofolio\\Credit Risk Analyst\\Data",
+    "output_directory": "d:\\Portofolio\\Credit Risk Analyst\\Outputs v2",
+    "model_directory": "d:\\Portofolio\\Credit Risk Analyst\\Models v2",
+    "dataset_file": "loan_data_2007_2014.csv",
+    "dictionary_file": "LCDataDictionary.xlsx",
+    "prediction_timing_assumption": "Sebelum pinjaman berjalan",
+    "target_definition": {
+        "good_loan": 0,
+        "bad_loan": 1,
+        "status_mapping": "Akan ditetapkan setelah pemeriksaan data"
+    },
+    "split_strategy": "Chronological train-validation-test split",
+    "primary_metrics": [
+        "ROC-AUC",
+        "Average Precision"
+    ],
+    "secondary_metrics": [
+        "Precision",
+        "Recall",
+        "F1-score",
+        "Confusion Matrix",
+        "KS Statistic"
+    ],
+    "random_state": 42
+}
