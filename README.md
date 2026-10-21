@@ -33,8 +33,8 @@ Dataset **tidak disertakan** di repositori ini karena ukurannya
 memudahkan reproduksi tersedia di OneDrive (gunakan tombol
 Download, karena file berukuran besar):
 
-- [loan_data_2007_2014.csv](https://1drv.ms/x/c/8C8890B7A4B0A953/IQCtbbpgC1MZS7IZZtXY56YPAWAg_j2bq0fL02JPSuSuj3M?e=Ez3DXO)
-- [LCDataDictionary.xlsx](https://1drv.ms/x/c/8C8890B7A4B0A953/IQCY53RepYwlQpmB9hiD96xzAYUNeA6fEphB3XSFaq7-mZQ?e=CJwtgc)
+- [loan_data_2007_2014.csv](https://drive.google.com/file/d/1D1vh8G42OTHEr4Sl3BJkUhh8nau_M_lA/view?usp=sharing)
+- [LCDataDictionary.xlsx](https://docs.google.com/spreadsheets/d/1GCR2_H0liSDD5q9CR_vick68VKMKGPWM/edit?usp=sharing&ouid=117131523218299509375&rtpof=true&sd=true)
 
 Lihat bagian [Cara Menjalankan](#cara-menjalankan) untuk
 menempatkan file data secara lokal.
