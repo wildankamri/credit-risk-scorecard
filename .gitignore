@@ -1,0 +1,22 @@
+# Virtual environment dan editor
+.venv/
+venv/
+env/
+.vscode/
+
+# Cache Python dan Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data: tidak di-upload (file terlalu besar), hanya README-nya
+data/*
+!data/README.md
+
+# Rahasia
+.env
+kaggle.json
+
+# File sementara
+Thumbs.db
+~$*
